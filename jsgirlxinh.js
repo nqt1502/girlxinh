@@ -725,11 +725,11 @@ window.addEventListener("load", function() {
             }
             if (f.match("[fb]")) {
                 var A = f.split(/\[dl\](.*)\[\/dl\]/gi);
-                2 < A.length && $("#bang-thong-tin .lien-ket").append('<a target="_blank" class="link-fb" href="https://mshare.io/file/' + A[1] + '"><i class="fal fa-download"></i></a>')
+                2 < A.length && $("#bang-thong-tin .lien-ket").append('<a target="_blank" class="link-fb" href="https://mshare.io/file/' + A[1] + '"><i class="fas fa-download"></i></a>')
             }
             if (f.match("[inst]")) {
                 var m = f.split(/\[alb\](.*)\[\/alb\]/gi);
-                2 < m.length && $("#bang-thong-tin .lien-ket").append('<a target="_blank" class="link-inst" href="https://mshare.io/file/' + m[1] + '"><i class="fal fa-image"></i></a>')
+                2 < m.length && $("#bang-thong-tin .lien-ket").append('<a target="_blank" class="link-inst" href="https://www.flickr.com/photos/' + m[1] + '"><i class="fab fa-flickr"></i></a>')
             }
             if (f.match("[ytb]")) {
                 var v = f.split(/\[ytb\](.*)\[\/ytb\]/gi),
