@@ -729,7 +729,7 @@ window.addEventListener("load", function() {
             }
             if (f.match("[inst]")) {
                 var m = f.split(/\[alb\](.*)\[\/alb\]/gi);
-                2 < m.length && $("#bang-thong-tin .lien-ket").append('<a target="_blank" class="link-inst" href="https://www.flickr.com/photos/' + m[1] + '"><i class="fab fa-flickr"></i></a>')
+                2 < m.length && $("#bang-thong-tin .lien-ket").append('<a target="_blank" class="link-inst" href="https://www.facebook.com/' + m[1] + '"><i class="fab fa-facebook-f"></i></a>')
             }
             if (f.match("[ytb]")) {
                 var v = f.split(/\[ytb\](.*)\[\/ytb\]/gi),
